@@ -19,8 +19,10 @@ jobs:
 
       - name: Instalar dependências
         run: |
-          pip install -r requirements.txt
+          python -m pip install --upgrade pip
           pip install pytest
 
       - name: Rodar testes
-        run: PYTHONPATH=. pytest
+        run: |
+          export PYTHONPATH=$PYTHONPATH:.
+          pytest
