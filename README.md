@@ -1,5 +1,10 @@
 # 📚 Organizador de Estudos CLI
 
+🔗 Repositório do projeto:
+https://github.com/RafaelTech06/organizador-estudos-cli
+
+---
+
 Este é um projeto simples em Python para ajudar estudantes a organizarem suas tarefas de estudo de forma prática diretamente pelo terminal.
 
 ---
@@ -21,6 +26,7 @@ Este projeto oferece uma aplicação em linha de comando (CLI) que permite adici
 - ➕ Adicionar tarefas
 - 📋 Listar tarefas
 - ❌ Remover tarefas
+- 💬 Mostrar frase motivacional
 
 ---
 
