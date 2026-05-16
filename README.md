@@ -1,6 +1,6 @@
 # 📚 Organizador de Estudos CLI
 
-🔗 Repositório do projeto:
+🔗 Repositório do projeto:  
 https://github.com/RafaelTech06/organizador-estudos-cli
 
 ## 👤 Autor
@@ -35,14 +35,16 @@ Este projeto consiste em um **Organizador de Estudos em linha de comando (CLI)**
 - Listar tarefas cadastradas  
 - Marcar tarefas como concluídas  
 - Remover tarefas  
-- (Opcional) Salvar dados em arquivo local (JSON/TXT)
+- (Opcional) Salvar dados em arquivo local (JSON/TXT)  
+- Consumo de API externa (frases motivacionais)
 
 ---
 
 ## 🛠 Tecnologias utilizadas
 - Python 3.x  
 - Git & GitHub  
-- JSON (caso usado para persistência de dados)  
+- JSON (persistência de dados, opcional)  
+- requests (consumo de API)  
 - pytest (testes automatizados)  
 - flake8 ou ruff (lint/análise estática)  
 - GitHub Actions (CI)
@@ -57,6 +59,10 @@ git clone https://github.com/RafaelTech06/organizador-estudos-cli.git
 
 # Acesse a pasta do projeto
 cd organizador-estudos-cli
+
+# Crie ambiente virtual (opcional)
+python -m venv venv
+venv\Scripts\activate
 
 # Instale as dependências
 pip install -r requirements.txt
