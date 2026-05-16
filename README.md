@@ -1,24 +1,30 @@
-# Organizador de Estudos CLI
+# 📚 Organizador de Estudos CLI
 
-Este é um projeto simples em Python para organizar tarefas de estudo.
+Este é um projeto simples em Python para ajudar estudantes a organizarem suas tarefas de estudo de forma prática diretamente pelo terminal.
 
-## Funcionalidades
+---
 
-- Adicionar tarefas
-- Listar tarefas
-- Remover tarefas
+## 📌 Problema
 
-## Como rodar o projeto
+Muitos estudantes têm dificuldade em organizar suas tarefas de estudo, o que pode gerar procrastinação e baixa produtividade no dia a dia.
 
-1. Instale o Python
-2. Instale as dependências:
+---
 
-pip install -r requirements.txt
+## 💡 Solução
 
-3. Execute o projeto:
+Este projeto oferece uma aplicação em linha de comando (CLI) que permite adicionar, listar e remover tarefas de forma simples, ajudando na organização dos estudos.
 
+---
+
+## ⚙️ Funcionalidades
+
+- ➕ Adicionar tarefas
+- 📋 Listar tarefas
+- ❌ Remover tarefas
+
+---
+
+## ▶️ Exemplo de uso
+
+```bash
 python src/app.py
-
-## Como rodar os testes
-
-python -m pytest

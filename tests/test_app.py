@@ -15,3 +15,11 @@ def test_tarefa_vazia():
 def test_remover_tarefa_invalida():
     resultado = remover_tarefa(0)
     assert resultado == "Erro: índice inválido"
+    
+def test_mostrar_frase():
+    from src.app import mostrar_frase
+
+    resultado = mostrar_frase()
+
+    assert isinstance(resultado, str)
+    assert len(resultado) > 0
