@@ -52,10 +52,10 @@ Este projeto consiste em um **Organizador de Estudos em linha de comando (CLI)**
 ## 📦 Instruções de instalação
 ```bash
 # Clone o repositório
-git clone https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git
+git clone https://github.com/RafaelTech06/organizador-estudos-cli.git
 
 # Acesse a pasta do projeto
-cd nome-do-projeto
+cd organizador-estudos-cli
 
 # Instale as dependências
 pip install -r requirements.txt
