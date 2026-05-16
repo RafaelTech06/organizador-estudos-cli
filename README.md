@@ -50,6 +50,7 @@ Este projeto consiste em um **Organizador de Estudos em linha de comando (CLI)**
 ---
 
 ## 📦 Instruções de instalação
+
 ```bash
 # Clone o repositório
 git clone https://github.com/RafaelTech06/organizador-estudos-cli.git
