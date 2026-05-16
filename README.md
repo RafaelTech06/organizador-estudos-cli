@@ -1,5 +1,8 @@
 # 📚 Organizador de Estudos CLI
 
+🔗 Repositório do projeto:
+https://github.com/RafaelTech06/organizador-estudos-cli
+
 ## 👤 Autor
 Rafael Torres Teixeira
 
